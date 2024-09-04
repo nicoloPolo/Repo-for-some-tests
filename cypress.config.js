@@ -16,10 +16,8 @@ module.exports = defineConfig({
     },
     chromeWebSecurity: false,
     env: {
-      username: "guest",
-      password: "welcome2qauto",
-      loginEmail: "Nicolo@mail.com",
-      loginPassword: "Pass123!",
+      username: "standard_user",
+      password: "secret_sauce",
     },
   },
 });
