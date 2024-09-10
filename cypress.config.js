@@ -5,6 +5,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    chromeWebSecurity: false,
+    experimentalSessionAndOrigin: true,
+    defaultCommandTimeout: 3000,
     baseUrl: "https://qauto.forstudy.space",
     reporter: "mochawesome",
     reporterOptions: {
@@ -14,7 +17,6 @@ module.exports = defineConfig({
       json: true,
       charts: true,
     },
-    chromeWebSecurity: false,
     env: {
       username: "standard_user",
       password: "secret_sauce",
